@@ -33,7 +33,8 @@ public class Arraystack {
 	}
 	
 	void Stringpractice(){
-		Scanner scan =new Scanner(System.in);
+		
+		
 		System.out.println("enter the array length: ");
 		int len=scan.nextInt();
 		scan.nextLine();
@@ -68,7 +69,7 @@ public class Arraystack {
 		
 		
 		Arraystack pro=new Arraystack();
-//		pro.practice();
+    	pro.practice();
 		
 		
 		pro.Stringpractice();
