@@ -37,12 +37,14 @@ public class Array3dimensional {
 		
 		for(int i=0;i<arr.length;i++) {    //block size
 			for(int j=0;j<arr[i].length;j++) {
+				
 				for(int k=0;k<arr[i][j].length;k++) {
 					System.out.println();
 					
-					System.out.print( "["+i+"] ,"+"["+j+"] ,"+"["+k+"] :");
-					
-					System.out.println(arr[i][j][k]);
+//					System.out.print( "["+i+"] ,"+"["+j+"] ,"+"["+k+"] :");
+//					
+//					System.out.println(arr[i][j][k]);
+					System.out.print(arr[i][j][k]+" ");
 					
 				}
 				System.out.println();
@@ -52,11 +54,25 @@ public class Array3dimensional {
 		
 	}
 	
+	
+	
+	void task() {
+		
+		int []arr= {10,20,30,40,50,60};
+		int key=50;
+		for(int i=0;i<arr.length;i++) {
+			if(arr[i]==key) {
+				System.out.println("index is :"+i);
+			}
+		}
+	}
+	
 	public static void main(String args[]) {
 		
 		Array3dimensional Array3dimensional=new Array3dimensional();
 		
-		Array3dimensional.multi();
+//		Array3dimensional.multi();
+		Array3dimensional.task();
 		
 		
 		

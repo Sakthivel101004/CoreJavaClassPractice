@@ -1,5 +1,6 @@
 package Interface;
 import java.util.Scanner;
+
 public class Addimplement implements Calculator,Stringinterface{
 	Scanner scan=new Scanner(System.in);
 
