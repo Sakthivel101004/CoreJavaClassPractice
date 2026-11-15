@@ -39,6 +39,8 @@ public class Condition {
 			System.out.println("grade:U");
 			
 		}
+	scan.close();
+	
 
 	}
 

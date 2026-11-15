@@ -43,9 +43,13 @@ public class Switch {
 		default:
 			System.out.println("enter the valid option");
 		
-		}
+		}scan.close();
+		
 		}
 		while(option!=4);
+		
+		
+	
 
 	}
 
