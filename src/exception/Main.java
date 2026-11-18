@@ -22,8 +22,8 @@ public class Main {
 		
 		
 		try {
-		String name=null;
-		System.out.println(name.charAt(0));
+		//String name=null;
+		//System.out.println(name.charAt(0));
 		}
 		catch(NullPointerException e) {
 			System.out.println(e);
